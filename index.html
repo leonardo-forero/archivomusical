@@ -53,7 +53,24 @@
 
 <section id="contacto" class="section">
   <h2>Contacto</h2>
-  <p>archivo.musical@idartes.gov.co</p>
+
+  <form class="contact-form"
+        action="mailto:leonardo.forero@idartes.gov.co"
+        method="post"
+        enctype="text/plain">
+
+    <input type="text" name="Nombre" placeholder="Nombre" required>
+
+    <input type="email" name="Correo" placeholder="Correo electrónico" required>
+
+    <textarea name="Mensaje" placeholder="Mensaje" rows="5" required></textarea>
+
+    <div class="form-buttons">
+      <button type="submit">Enviar mensaje</button>
+      <button type="reset">Limpiar</button>
+    </div>
+
+  </form>
 </section>
 
 <button id="chatbot-btn">💬</button>
