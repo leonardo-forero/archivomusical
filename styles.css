@@ -14,7 +14,7 @@ body {
 }
 
 .logo img {
-  height: 64px; /* puedes probar entre 36px y 48px */
+  height: 108px; 
   width: auto;
   display: block;
 }
