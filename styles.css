@@ -9,22 +9,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 40px 40px;
   background-color: #000;
 }
 
 .logo img {
-  height: 42px; /* puedes probar entre 36px y 48px */
+  height: 64px; /* puedes probar entre 36px y 48px */
   width: auto;
   display: block;
 }
 
 .nav a {
-  margin-left: 24px;
+  margin-left: 32px;     /* más aire */
   text-decoration: none;
   color: #fff;
-  font-size: 13px;
-  letter-spacing: 1px;
+  font-size: 15px;       /* antes 13px */
+  letter-spacing: 1.5px; /* más museo */
   text-transform: uppercase;
 }
 
