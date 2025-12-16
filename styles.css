@@ -209,8 +209,12 @@ padding: 10px;
 .team-container {
   display: flex;
   gap: 40px;
-  overflow: hidden;
   width: 720px; /* muestra 3 personas */
+}
+
+.team-window {
+  overflow: hidden;
+  width: 720px; /* exactamente 3 círculos */
 }
 
 .team-member {
