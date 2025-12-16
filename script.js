@@ -22,3 +22,16 @@ input.addEventListener('keypress', (e) => {
   }
 });
 
+let teamIndex = 0;
+
+function moveTeam(direction) {
+  const container = document.getElementById('teamContainer');
+  const memberWidth = 240; // ancho + gap
+  teamIndex += direction;
+
+  const maxIndex = container.children.length - 3;
+  if (teamIndex < 0) teamIndex = 0;
+  if (teamIndex > maxIndex) teamIndex = maxIndex;
+
+  container.style.transform = `translateX(-${teamIndex * memberWidth}px)`;
+}
