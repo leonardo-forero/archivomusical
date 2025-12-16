@@ -26,10 +26,11 @@ let teamIndex = 0;
 
 function moveTeam(direction) {
   const container = document.getElementById('teamContainer');
-  const memberWidth = 240; // ancho + gap
+  const memberWidth = 240 * 3; // ancho + gap
+  const maxIndex = Math.ceil(container.children.length / 3) - 1;
+  
   teamIndex += direction;
 
-  const maxIndex = container.children.length - 3;
   if (teamIndex < 0) teamIndex = 0;
   if (teamIndex > maxIndex) teamIndex = maxIndex;
 
