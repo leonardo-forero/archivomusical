@@ -325,6 +325,10 @@ padding: 10px;
     height: 140px;
   }
 
+  .team-window {
+    width: 100%;
+  }
+  
   .team-name {
     font-size: 14px;
   }
