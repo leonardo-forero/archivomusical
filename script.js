@@ -26,21 +26,16 @@ let teamIndex = 0;
 
 function moveTeam(direction) {
   const track = document.getElementById('teamContainer');
+  const wrapper = track.parentElement; // contenedor visible
   const members = track.children;
 
-  const isMobile = window.innerWidth <= 768;
-  const itemsPerView = isMobile ? 1 : 3;
-
-  const memberWidth = members[0].offsetWidth;
-  const gap = 32; // 
-  const step = (memberWidth + gap) * itemsPerView;
-
-  const maxIndex = Math.ceil(members.length / itemsPerView) - 1;
+  const pageWidth = wrapper.offsetWidth;
+  const totalPages = Math.ceil(track.scrollWidth / pageWidth);
 
   teamIndex += direction;
 
   if (teamIndex < 0) teamIndex = 0;
-  if (teamIndex > maxIndex) teamIndex = maxIndex;
+  if (teamIndex > totalPages - 1) teamIndex = totalPages - 1;
 
-  track.style.transform = `translateX(-${teamIndex * step}px)`;
+  track.style.transform = `translateX(-${teamIndex * pageWidth}px)`;
 }
