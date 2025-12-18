@@ -214,11 +214,13 @@ padding: 10px;
 }
 
 .arrival-info {
+  width: 100%;
   max-width: 900px;
+  margin: 0 auto;
 }
 
-.arrival-info {
-  max-width: 900px;
+.arrival-info p {
+  margin: 0;
 }
 
 .map-link {
