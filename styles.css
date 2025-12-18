@@ -218,6 +218,10 @@ padding: 10px;
   margin: 0;
 }
 
+.arrival-info strong {
+  font-weight: 600;
+}
+
 .map-link {
   display: flex;
   flex-direction: column;
