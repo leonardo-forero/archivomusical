@@ -199,11 +199,6 @@ padding: 10px;
   margin-bottom: 8px;
 }
 
-.how-to-arrive h3 a {
-  color: #000;
-  text-decoration: underline;
-}
-
 .how-to-arrive h3 a:hover {
   opacity: 0.7;
 }
