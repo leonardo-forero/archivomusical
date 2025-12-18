@@ -219,6 +219,17 @@ padding: 10px;
   line-height: 1.6;
 }
 
+.map-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.map-link iframe {
+  margin-top: 16px;
+  border: 1px solid #000;
+}
+
 /* Formulario de contacto */
 
 .contact-form {
@@ -407,9 +418,13 @@ padding: 10px;
     font-size: 12px;
   }
 
-.how-to-arrive {
+  .how-to-arrive {
   grid-template-columns: 1fr;
   gap: 24px;
+}
+
+  .map-link iframe {
+  height: 220px;
 }
   
   /* Flechas del equipo */
