@@ -184,6 +184,41 @@ padding: 10px;
   line-height: 1.6;
 }
 
+/* Cómo llegar */
+
+.how-to-arrive {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 80px;
+  align-items: center;
+}
+
+.how-to-arrive h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.how-to-arrive h3 a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.how-to-arrive h3 a:hover {
+  opacity: 0.7;
+}
+
+.address {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.arrival-info p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 /* Formulario de contacto */
 
 .contact-form {
