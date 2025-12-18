@@ -213,9 +213,12 @@ padding: 10px;
   opacity: 0.8;
 }
 
-.arrival-info p {
-  font-size: 14px;
-  line-height: 1.6;
+.arrival-info {
+  max-width: 900px;
+}
+
+.arrival-info {
+  max-width: 900px;
 }
 
 .map-link {
