@@ -221,11 +221,14 @@ padding: 10px;
 .map-link {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .map-link iframe {
   margin-top: 16px;
+  width: 100%;
+  max-width: 420px;      /* controla el ancho visual */
+  height: 260px;
   border: 1px solid #000;
 }
 
@@ -422,9 +425,10 @@ padding: 10px;
   gap: 24px;
 }
 
-  .map-link iframe {
-  height: 220px;
-}
+   .map-link iframe {
+    max-width: 100%;
+    height: 220px;
+  }
   
   /* Flechas del equipo */
   .team-arrow {
