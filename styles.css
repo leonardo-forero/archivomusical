@@ -407,6 +407,11 @@ padding: 10px;
     font-size: 12px;
   }
 
+.how-to-arrive {
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+  
   /* Flechas del equipo */
   .team-arrow {
     font-size: 22px;
